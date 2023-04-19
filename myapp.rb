@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 require 'sinatra'
 require 'sinatra/reloader'
  
@@ -7,4 +9,8 @@ end
 
 get '/test' do
     "<h2>Hello Worldtest!</h2><p>asdfghjk</p>"
+end
+
+get '/melon' do
+  "<h2>めろ～ん</h2>"
 end
